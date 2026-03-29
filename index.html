@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Traffic Intelligence System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🚦 Traffic Intelligence System</h1>
+
+<p>Data Source: Bright Data API (Backend)</p>
+
+<div class="container">
+
+  <div class="card">
+    <h3>Input Traffic Sources</h3>
+    <textarea id="input">
+Vehicle movement is slow due to heavy traffic flow
+Moderate congestion observed in some areas
+Traffic is smooth in outskirts
+    </textarea>
+
+    <br><br>
+    <button onclick="resolve()">Analyze</button>
+  </div>
+
+  <div class="card" id="analysis">
+    <h3>Analysis</h3>
+  </div>
+
+  <div class="card" id="result">
+    <h3>Final Output</h3>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
